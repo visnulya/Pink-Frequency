@@ -1,18 +1,13 @@
 <!doctype html>
 <html lang="ru">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pink Frequency — синтезатор</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
-<body>
-<main class="studio">
-<header><span class="tag">YOUR DREAM SOUND STUDIO</span><span class="edition">VOL. 01 ✧</span><h1>Pink <i>Frequency</i><span>✦</span></h1><p>Смешивай частоты. Создавай своё настроение.</p></header>
-<section class="synth" aria-label="Музыкальный синтезатор">
-<div class="topline"><span class="brand">PF / DREAM MACHINE</span><button id="power" aria-pressed="false">Включить звук ↗</button></div>
-<div class="display"><div><span class="small">NOW PLAYING</span><strong id="note">READY TO DREAM</strong><span id="status" role="status">Включи звук и нажми на клавиши</span></div><canvas id="scope" width="480" height="110" aria-label="Визуализация звуковой волны"></canvas></div>
-<div class="controls">
-<section class="module"><h2><span>01</span> Форма звука</h2><div class="waves" role="group" aria-label="Форма волны"><button data-wave="sine" aria-pressed="true">∿<small>Sine</small></button><button data-wave="triangle" aria-pressed="false">⋀<small>Triangle</small></button><button data-wave="sawtooth" aria-pressed="false">⩘<small>Saw</small></button><button data-wave="square" aria-pressed="false">⊓<small>Square</small></button></div><label class="slider">Громкость <output id="volumeValue">35%</output><input id="volume" type="range" min="0" max="100" value="35"></label><div class="octave"><span>Октава</span><button id="octDown" aria-label="Октава ниже">−</button><output id="octave">4</output><button id="octUp" aria-label="Октава выше">+</button></div></section>
-<section class="module"><h2><span>02</span> Характер</h2><label class="slider">Фильтр <output id="filterValue">8000 Hz</output><input id="filter" type="range" min="0" max="100" value="80"></label><label class="slider">Атака <output id="attackValue">0.02 s</output><input id="attack" type="range" min="0.005" max="1.5" step="0.005" value="0.02"></label><label class="slider">Затухание <output id="releaseValue">0.40 s</output><input id="release" type="range" min="0.05" max="3" step="0.05" value="0.4"></label></section>
-<section class="module"><h2><span>03</span> Немного магии</h2><label class="slider">Эхо <output id="echoValue">20%</output><input id="echo" type="range" min="0" max="70" value="20"></label><div class="presets"><span class="small">SOUND MOODS</span><button data-preset="dream">✧ Dream</button><button data-preset="gloss">✦ Gloss</button><button data-preset="velvet">♡ Velvet</button></div><button id="panic">Остановить все ноты</button></section>
-</div>
-<div class="keyboard-header"><span>PLAY SOMETHING PRETTY</span><span>Мышь · касание · клавиатура</span></div><div id="keyboard" class="keyboard" aria-label="Клавиши синтезатора"></div>
-<footer><span>♡ MADE FOR YOUR MAIN CHARACTER MOMENT</span><span>A W S E D F T G Y H U J K</span></footer>
-</section><p class="hint">Удерживай клавиши для длинных нот. Несколько клавиш вместе — аккорд.</p>
-</main></body></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#c9156c" />
+    <title>Pink Frequency — Dream Machine</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
