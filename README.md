@@ -1,4 +1,6 @@
 <sub>Использовался ИИ ChatGPT</sub>
+Промт разработки:
+Create a functional browser-based music synthesizer called Pink Frequency using React and Tone.js. Follow the supplied Barbiecore visual references: pale pink panels, raspberry controls, rounded buttons, Arial for interface text, and Georgia Italic for Frequency in the title. Add two independent voices: a monophonic bass controlled by a 16-step sequencer and a polyphonic lead played with an on-screen or computer keyboard. Give each voice a filter, an amplitude envelope, its own effects, volume, mute, and stereo panning. Use distortion for the bass and delay plus reverb for the lead. Include tempo controls, three presets named Dream, Gloss, and Velvet, and an audio waveform display. Organize the code into clear React components and a separate audio engine. Prepare the project for publication on GitHub Pages.
 
 # Pink Frequency · Dream Machine
 
